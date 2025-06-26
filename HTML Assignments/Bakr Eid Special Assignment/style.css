@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'TangerineBold';
+    src: url('fonts/Tangerine-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TangerineRegular';
+    src: url('fonts/Tangerine-Regular.ttf') format('truetype');
+}
+
+ body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'TangerineRegular', cursive;
+    background-image: url('My assets/mosque img-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eid-card {
+    background: linear-gradient(to bottom, rgb(3, 3, 78), rgb(15, 15, 120));
+    color: #e5d9d9;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 8px 16px rgba(3, 3, 3, 0.6);
+    border: 2px solid #ffd902;
+}
+
+.eid-card h2 {
+    font-family: 'TangerineBold', cursive;
+    font-size: 3em;
+    color: #ffd902;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+
+}
+
+#greetings {
+    font-family: 'TangerineRegular', cursive;
+    color: #e5d9d9;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    max-width: 400px;
+    line-height: 1.6;
+    font-size: 1.5em;
+}
